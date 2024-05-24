@@ -2,7 +2,7 @@ import { render, screen, fireEvent } from "@testing-library/react";
 import App from "./App";
 import EmojiList from "./emojiList.json";
 
-describe("Header test", () => {
+describe("Emoji Search test", () => {
   //App.js is rendered before each test.
   beforeEach(() => {
     render(<App />);
